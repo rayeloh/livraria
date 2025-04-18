@@ -1,0 +1,152 @@
+/* Estilos Globais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f6;
+    color: #4b0082;
+}
+
+header {
+    text-align: center;
+    background-color: #f8c8dc;
+    padding: 50px;
+    color: #373034;
+    border-bottom: 2px solid #b95e99;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* Estilos das Sessões */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #1f1b1c;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+}
+
+/* Primeira Sessão: Mais Vendidos */
+.best-sellers .book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.best-sellers .book {
+    background-color: #f8d7da;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+}
+
+.best-sellers .book img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.best-sellers .book p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Segunda Sessão: Complementos */
+.accessories .item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.accessories .item {
+    background-color: #f1c6d4;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.accessories .item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.accessories .item p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* Terceira Sessão: Café e Sala de Leitura */
+.cafe-reading-room .menu {
+    background-color: #f8c8dc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cafe-reading-room .menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cafe-reading-room .menu li {
+    margin-bottom: 10px;
+}
+
+.cafe-reading-room .photos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.cafe-reading-room .photos img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Quarta Sessão: Contato */
+.contact {
+    background-color: #f8d7da;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+}
+
+.contact a {
+    color: #e64980;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #f8c8dc;
+    padding: 20px;
+    margin-top: 50px;
+}
